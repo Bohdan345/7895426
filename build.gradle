@@ -5,7 +5,7 @@ plugins {
 }
 configurations {
     testCompile {
-        extendsFrom testImplementation
+        extendsFrom implementation
     }
 }
 
@@ -24,18 +24,18 @@ allure {
 dependencies {
 
 
-    implementation "org.hamcrest:hamcrest-all:1.3"
-    implementation 'com.codeborne:selenide:5.24.0'
+    testImplementation  "org.hamcrest:hamcrest-all:1.3"
+    testImplementation  'com.codeborne:selenide:5.24.0'
 
-    implementation 'io.qameta.allure:allure-junit5:2.14.0'
-    implementation 'io.qameta.allure:allure-java-commons:2.14.0'
-    implementation 'io.qameta.allure:allure-selenide:2.14.0'
+    testImplementation 'io.qameta.allure:allure-junit5:2.14.0'
+    testImplementation 'io.qameta.allure:allure-java-commons:2.14.0'
+    testImplementation 'io.qameta.allure:allure-selenide:2.14.0'
 
-    implementation 'io.rest-assured:rest-assured:4.4.0'
+    testImplementation 'io.rest-assured:rest-assured:4.4.0'
 
-    implementation 'com.github.javafaker:javafaker:1.0.2'
-    implementation "org.junit.jupiter:junit-jupiter-api:5.7.2"
-
+    testImplementation 'com.github.javafaker:javafaker:1.0.2'
+    testImplementation "org.junit.jupiter:junit-jupiter-api:5.7.2"
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
 }
 
 test {

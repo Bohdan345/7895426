@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.qameta.allure:allure-test-filter:2.14.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../devTools/gradle-7.1.1-bin/gradle-7.1.1/caches/modules-2/files-2.1/io.qameta.allure/allure-test-filter/2.14.0/757da098af402edc1e59e9f8872217ad3160bb24/allure-test-filter-2.14.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../devTools/gradle-7.1.1-bin/gradle-7.1.1/caches/modules-2/files-2.1/io.qameta.allure/allure-test-filter/2.14.0/98d6cdce5d6a2a5243dba989a46226c105fc9b57/allure-test-filter-2.14.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

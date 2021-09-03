@@ -2,6 +2,7 @@ import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 
 public class MyTest {
 
@@ -10,5 +11,7 @@ public class MyTest {
 
         open("https://www.google.com/");
         Selenide.sleep(1000);
+        getWebDriver().close();
+        getWebDriver().quit();
     }
 }
